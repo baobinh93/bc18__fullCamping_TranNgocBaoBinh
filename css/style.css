@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  --primary-color: #f8e1db;
+  --secondary-color: #faf4f2;
+  --text-primary-color: #3a3735;
+  --text-secondary-color: rgb(142, 142, 142);
+  --btn-color: #e8e8e8;
+  --white: #fff;
+  --important-color: #f2c0b4;
+}
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  position: relative;
+  background-color: #f8e1db;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* ----start header ----- */
+.header {
+  background-color: var(--primary-color);
+  padding: 10px 50px;
+}
+.header__logo {
+}
+.header__logo__img {
+  width: 50px;
+  height: 50px;
+}
+.header__navbar {
+  list-style: none;
+  padding-left: 0;
+}
+.header__navbar__link {
+  float: left;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 31px;
+}
+.header__navbar::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* ----end header ----- */
+
+/* ---- start Carousel ----- */
+.carousel {
+  margin-bottom: -5px;
+  height: 467px;
+  width: 100%;
+  background-image: url(../img/BG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: 60%;
+}
+/* ---- end Carousel ----- */
+
+/* ------ start Activities -------- */
+.activities {
+  background-color: var(--secondary-color);
+}
+.acti__header {
+  padding-top: 53px;
+  text-align: center;
+}
+.acti__header__img {
+  width: auto;
+  height: 90px;
+}
+.acti__header__des {
+  color: var(--text-secondary-color);
+  font-size: 24px;
+}
+.acti__content {
+  padding-top: 27px;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.acti__content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.acti__item {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.acti__card {
+  height: auto;
+  padding: 30px;
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+.acti__card__img {
+  width: 100%;
+  border-radius: 16px;
+}
+.acti__card__name {
+  color: var(--text-primary-color);
+  font-size: 24px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+.acti__card__des {
+  color: var(--text-secondary-color);
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 8px 37px;
+  border-radius: 20px;
+  font-size: 13px;
+  min-width: 130px;
+  cursor: pointer;
+}
+.acti__card__btn:hover {
+  opacity: 80%;
+}
+.acti__card__btn {
+  background-color: var(--btn-color);
+  border: none;
+  color: var(--text-secondary-color);
+}
+.acti__footer {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+.acti__footer__btn {
+  border: 1px solid var(--important-color);
+  background-color: transparent;
+  color: #f58064;
+}
+.acti__footer__btn:hover {
+  background-color: #f5d2c7;
+}
+/* ------ end Activities -------- */
+
+/* ------ start Contact -------- */
+.contact {
+  height: auto;
+  background-color: var(--primary-color);
+  padding: 12px 44px;
+  background-image: url(../img/mask.png);
+  background-position-x: 100%;
+  background-size: 151% 101%;
+  background-repeat: no-repeat;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.contact__img img {
+  height: 270px;
+  width: auto;
+  display: block;
+  float: left;
+  padding-right: 40px;
+}
+
+.contact__info {
+  padding-top: 44px;
+  float: left;
+}
+.contact::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.contact__header {
+  font-size: 24px;
+  color: var(--text-secondary-color);
+}
+.contact__des {
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  font-weight: normal;
+}
+.contact__icons {
+  color: var(--text-secondary-color);
+}
+.contact__icons__download,
+.contact__icons__follow {
+  float: left;
+}
+.contact__icons__download {
+  margin-right: 12px;
+}
+.download__icons {
+}
+.download__link {
+}
+.download__icon {
+  width: 108px;
+  height: 32px;
+  padding: 0 2px;
+  float: left;
+}
+
+.contact__icons__name {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.follow__icons {
+}
+.follow__link {
+  text-decoration: none;
+}
+.follow__icon {
+  color: #e76f51;
+  font-size: 22px;
+  margin-right: 10px;
+  float: left;
+}
+/* ------ end Contact -------- */
+
+/* ------start footer ------ */
+.footer {
+  background-color: var(--primary-color);
+  height: auto;
+  margin-top: 75px;
+
+  padding: 76px 44px 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.footer__content::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.background-white {
+  background-color: var(--secondary-color);
+  padding-top: 75px;
+}
+.footer__list {
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+.footer__list__header {
+  color: var(--text-primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.width-40 {
+  width: 40%;
+}
+
+.footer__list__item {
+  color: var(--text-primary-color);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.footer__list__item__link {
+  text-decoration: none;
+  color: var(--text-primary-color);
+}
+.footer__list__item__link:hover {
+  color: var(--important-color);
+  transition: 0.05s linear;
+}
+.footer__copyright {
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+/* ------end footer ------ */
+
+@media (max-width: 1023px) {
+  .contact--info {
+    padding-left: 40px;
+  }
+  .width-full {
+    width: 100%;
+  }
+}
+@media (max-width: 739px) {
+  .contact__img {
+    display: none;
+  }
+
+  .activities {
+    text-align: center;
+  }
+  .acti__item {
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
