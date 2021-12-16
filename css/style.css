@@ -30,7 +30,7 @@ body {
 }
 .header__logo {
 }
-.header__logo__img {
+.header__logo-img {
   width: 50px;
   height: 50px;
 }
@@ -38,7 +38,7 @@ body {
   list-style: none;
   padding-left: 0;
 }
-.header__navbar__link {
+.header__navbar-link {
   float: left;
   text-decoration: none;
   color: var(--text-primary-color);
@@ -74,11 +74,11 @@ body {
   padding-top: 53px;
   text-align: center;
 }
-.acti__header__img {
+.acti__header-img {
   width: auto;
   height: 90px;
 }
-.acti__header__des {
+.acti__header-des {
   color: var(--text-secondary-color);
   font-size: 24px;
 }
@@ -106,17 +106,17 @@ body {
   border-radius: 16px;
   margin-bottom: 15px;
 }
-.acti__card__img {
+.acti__card-img {
   width: 100%;
   border-radius: 16px;
 }
-.acti__card__name {
+.acti__card-name {
   color: var(--text-primary-color);
   font-size: 24px;
   margin-top: 9px;
   margin-bottom: 10px;
 }
-.acti__card__des {
+.acti__card-des {
   color: var(--text-secondary-color);
   font-size: 16px;
   line-height: 21px;
@@ -129,10 +129,10 @@ body {
   min-width: 130px;
   cursor: pointer;
 }
-.acti__card__btn:hover {
+.acti__card-btn:hover {
   opacity: 80%;
 }
-.acti__card__btn {
+.acti__card-btn {
   background-color: var(--btn-color);
   border: none;
   color: var(--text-secondary-color);
@@ -142,12 +142,12 @@ body {
   padding-top: 25px;
   padding-bottom: 55px;
 }
-.acti__footer__btn {
+.acti__footer-btn {
   border: 1px solid var(--important-color);
   background-color: transparent;
   color: #f58064;
 }
-.acti__footer__btn:hover {
+.acti__footer-btn:hover {
   background-color: #f5d2c7;
 }
 /* ------ end Activities -------- */
@@ -193,11 +193,11 @@ body {
 .contact__icons {
   color: var(--text-secondary-color);
 }
-.contact__icons__download,
-.contact__icons__follow {
+.contact__icons-download,
+.contact__icons-follow {
   float: left;
 }
-.contact__icons__download {
+.contact__icons-download {
   margin-right: 12px;
 }
 .download__icons {
@@ -211,7 +211,7 @@ body {
   float: left;
 }
 
-.contact__icons__name {
+.contact__icons-name {
   padding-top: 20px;
   padding-bottom: 15px;
   font-size: 18px;
@@ -253,7 +253,7 @@ body {
   padding-right: 30px;
   margin-bottom: 20px;
 }
-.footer__list__header {
+.footer__list-header {
   color: var(--text-primary-color);
   font-size: 18px;
   font-weight: bold;
@@ -263,16 +263,16 @@ body {
   width: 40%;
 }
 
-.footer__list__item {
+.footer__list-item {
   color: var(--text-primary-color);
   font-size: 16px;
   margin-bottom: 5px;
 }
-.footer__list__item__link {
+.footer__list-item__link {
   text-decoration: none;
   color: var(--text-primary-color);
 }
-.footer__list__item__link:hover {
+.footer__list-item__link:hover {
   color: var(--important-color);
   transition: 0.05s linear;
 }
